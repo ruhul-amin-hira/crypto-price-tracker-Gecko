@@ -40,7 +40,7 @@ const CoinChart = ({ data }) => {
         colors: ["#4dce78"],
       },
       grid: {
-        // borderColor: color.borderColor,
+         borderColor: color.borderColor,
       },
       xaxis: {
         type: "datetime",
@@ -54,7 +54,7 @@ const CoinChart = ({ data }) => {
           },
           style: {
             fontFamily: "Helvetica, Arial, sans-serif",
-            // cssClass: "label-class",
+            cssClass: "label-class",
           },
         },
       },
@@ -65,7 +65,7 @@ const CoinChart = ({ data }) => {
           },
           style: {
             fontSize: "1.3rem",
-            // cssClass: "label-class",
+            cssClass: "label-class",
           },
         },
       },
