@@ -22,22 +22,22 @@ const CoinDetails = () => {
     {
       queryKey: ["coinD", 1],
       queryFn: useGetDetails(id, currency, 1, "hour"),
-      refetchInterval: 100000,
+      refetchInterval: 10000,
     },
     {
       queryKey: ["coinD", 2],
       queryFn: useGetDetails(id, currency, 7, "hour"),
-      refetchInterval: 100000,
+      refetchInterval: 10000,
     },
     {
       queryKey: ["coinD", 3],
       queryFn: useGetDetails(id, currency, 30, "hour"),
-      refetchInterval: 100000,
+      refetchInterval: 10000,
     },
     {
       queryKey: ["coinD", 4],
       queryFn: useGetDetails(id, currency, 365, "monthly"),
-      refetchInterval: 100000,
+      refetchInterval: 10000,
     },
   ]);
 

@@ -9,7 +9,7 @@ import Error from "../status/Error";
 const PriceList = () => {
   const { currency, search } = useContext(CoinCointext);
   // console.log(search);
-  const { data, isLoading, isError, rest } = useFetch(100000, currency);
+  const { data, isLoading, isError, rest } = useFetch(10000, currency);
   const currencySign = currency === "usd" ? "$" : "৳ ";
   // const coinData = data;
 
