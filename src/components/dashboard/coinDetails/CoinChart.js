@@ -40,7 +40,7 @@ const CoinChart = ({ data }) => {
         colors: ["#4dce78"],
       },
       grid: {
-         borderColor: color.borderColor,
+        borderColor: color.borderColor,
       },
       xaxis: {
         type: "datetime",

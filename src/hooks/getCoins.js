@@ -6,7 +6,7 @@ import { fetchCoins } from "../api/base";
 // fetchCoins.defaults.params.vs_currency = "bdt";
 
 const fetchCoinList = async () => {
-  return await fetchCoins.get("/coins/markets");
+  return await fetchCoins.get("coins/markets");
 };
 
 export const useFetch = (value, currency) => {

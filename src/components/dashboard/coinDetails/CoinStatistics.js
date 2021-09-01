@@ -27,7 +27,7 @@ const CoinStatistics = ({ data, currency }) => {
     return "";
   };
 
-  console.log(coin);
+  // console.log(coin);
   return (
     <div className="coinstatic">
       <CoinStatisticsBox

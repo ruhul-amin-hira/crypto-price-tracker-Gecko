@@ -1,11 +1,9 @@
-
 # Gecko - a crypto price tracker
+
 ## See Live Project on vercel
+
 (https://gecko-crypto.vercel.app/) .\
 **Get real time prices with chart and different data made with coingecko api**
-
-
-
 
 ## Getting Started with Create React App
 

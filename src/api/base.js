@@ -1,7 +1,11 @@
 import axios from "axios";
 
 export const fetchCoins = axios.create({
-  baseURL: "https://api.coingecko.com/api/v3",
+  // baseURL: "https://api.coingecko.com/api/v3",
+  baseURL:
+    "https://api.coingecko.com/api/v3",
+
+  // baseURL: "https://api.codetabs.com/v1/proxy?quest=",
   params: {
     // vs_currency: "usd",
     order: "market_cap_desc",
@@ -12,7 +16,11 @@ export const fetchCoins = axios.create({
 });
 
 export const fetchCoinDetails = axios.create({
-  baseURL: "https://api.coingecko.com/api/v3",
+  //  baseURL: "https://api.coingecko.com/api/v3",
+  baseURL:
+    "https://api.coingecko.com/api/v3",
+  /*  baseURL:
+    "https://api.codetabs.com/v1/proxy?quest=<https://api.coingecko.com/api/v3>", */
 });
 
 // export const fetchCoins = (currency) => {

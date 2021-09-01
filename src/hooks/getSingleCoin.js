@@ -10,7 +10,7 @@ const useSingleCoin = (id, currency, value) => {
   };
 
   const fetchCoinList = async () => {
-    return await fetchCoinDetails.get("/coins/markets", { params });
+    return await fetchCoinDetails.get("coins/markets", { params });
   };
 
   const result = useQuery("singleCoin", fetchCoinList, {
